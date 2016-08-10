@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>api</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>yajl.c</string>
+		</array>
+		<array>
+			<string>yajl_alloc.c</string>
+		</array>
+		<array>
+			<string>yajl_alloc.h</string>
+		</array>
+		<array>
+			<string>yajl_buf.c</string>
+		</array>
+		<array>
+			<string>yajl_buf.h</string>
+		</array>
+		<array>
+			<string>yajl_bytestack.h</string>
+		</array>
+		<array>
+			<string>yajl_common.h</string>
+		</array>
+		<array>
+			<string>yajl_encode.c</string>
+		</array>
+		<array>
+			<string>yajl_encode.h</string>
+		</array>
+		<array>
+			<string>yajl_gen.c</string>
+		</array>
+		<array>
+			<string>yajl_gen.h</string>
+		</array>
+		<array>
+			<string>yajl_lex.c</string>
+		</array>
+		<array>
+			<string>yajl_lex.h</string>
+		</array>
+		<array>
+			<string>yajl_parse.h</string>
+		</array>
+		<array>
+			<string>yajl_parser.c</string>
+		</array>
+		<array>
+			<string>yajl_parser.h</string>
+		</array>
+	</array>
+</dict>
+</plist>

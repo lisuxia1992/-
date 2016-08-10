@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>crypt.h</string>
+		</array>
+		<array>
+			<string>ioapi.c</string>
+		</array>
+		<array>
+			<string>ioapi.h</string>
+		</array>
+		<array>
+			<string>mztools.c</string>
+		</array>
+		<array>
+			<string>mztools.h</string>
+		</array>
+		<array>
+			<string>unzip.c</string>
+		</array>
+		<array>
+			<string>unzip.h</string>
+		</array>
+		<array>
+			<string>zip.c</string>
+		</array>
+		<array>
+			<string>zip.h</string>
+		</array>
+	</array>
+</dict>
+</plist>

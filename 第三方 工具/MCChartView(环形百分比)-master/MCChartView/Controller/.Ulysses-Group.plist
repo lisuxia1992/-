@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>MCBarChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCBarChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCCircleChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCCircleChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCCoverageChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCCoverageChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCLineChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCLineChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCPieChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCPieChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCRadarChartViewController.h</string>
+		</array>
+		<array>
+			<string>MCRadarChartViewController.m</string>
+		</array>
+		<array>
+			<string>MCTableViewController.h</string>
+		</array>
+		<array>
+			<string>MCTableViewController.m</string>
+		</array>
+	</array>
+</dict>
+</plist>

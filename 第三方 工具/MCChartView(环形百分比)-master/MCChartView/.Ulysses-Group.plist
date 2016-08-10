@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>Base.lproj</string>
+		<string>Controller</string>
+		<string>Images.xcassets</string>
+		<string>View</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>CustomNotificationCenter.h</string>
+		</array>
+		<array>
+			<string>CustomNotificationCenter.m</string>
+		</array>
+		<array>
+			<string>CustomNotificition.h</string>
+		</array>
+		<array>
+			<string>CustomNotificition.m</string>
+		</array>
+		<array>
+			<string>main.m</string>
+		</array>
+		<array>
+			<string>MCAppDelegate.h</string>
+		</array>
+		<array>
+			<string>MCAppDelegate.m</string>
+		</array>
+		<array>
+			<string>UIColor+Extends.h</string>
+		</array>
+		<array>
+			<string>UIColor+Extends.m</string>
+		</array>
+	</array>
+</dict>
+</plist>

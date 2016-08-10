@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>MCBarChartView.h</string>
+		</array>
+		<array>
+			<string>MCBarChartView.m</string>
+		</array>
+		<array>
+			<string>MCChartInformationView.h</string>
+		</array>
+		<array>
+			<string>MCChartInformationView.m</string>
+		</array>
+		<array>
+			<string>MCCircleChartView.h</string>
+		</array>
+		<array>
+			<string>MCCircleChartView.m</string>
+		</array>
+		<array>
+			<string>MCCoverageChartView.h</string>
+		</array>
+		<array>
+			<string>MCCoverageChartView.m</string>
+		</array>
+		<array>
+			<string>MCCoverageLayer.h</string>
+		</array>
+		<array>
+			<string>MCCoverageLayer.m</string>
+		</array>
+		<array>
+			<string>MCLineChartView.h</string>
+		</array>
+		<array>
+			<string>MCLineChartView.m</string>
+		</array>
+		<array>
+			<string>MCPieChartView.h</string>
+		</array>
+		<array>
+			<string>MCPieChartView.m</string>
+		</array>
+		<array>
+			<string>MCRadarChartView.h</string>
+		</array>
+		<array>
+			<string>MCRadarChartView.m</string>
+		</array>
+		<array>
+			<string>MCRadarLayer.h</string>
+		</array>
+		<array>
+			<string>MCRadarLayer.m</string>
+		</array>
+	</array>
+</dict>
+</plist>

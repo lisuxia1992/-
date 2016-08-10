@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>en.lproj</string>
+		<string>minizip</string>
+		<string>wax</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>AppDelegate.h</string>
+		</array>
+		<array>
+			<string>AppDelegate.m</string>
+		</array>
+		<array>
+			<string>main.m</string>
+		</array>
+		<array>
+			<string>MainViewController.h</string>
+		</array>
+		<array>
+			<string>MainViewController.m</string>
+		</array>
+		<array>
+			<string>ProtocolLoader.h</string>
+		</array>
+		<array>
+			<string>WaxPatch-Prefix.pch</string>
+		</array>
+		<array>
+			<string>ZipArchive.h</string>
+		</array>
+		<array>
+			<string>ZipArchive.mm</string>
+		</array>
+	</array>
+</dict>
+</plist>

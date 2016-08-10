@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>label设置边距</string>
+		<string>UIView-Category-storyboard新增layer属性</string>
+		<string>WaxPatch-iOS动态更新库</string>
+		<string>获取状态栏中的内容</string>
+		<string>解压缩文件</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+</dict>
+</plist>

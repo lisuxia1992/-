@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>extensions</string>
+		<string>lua</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>wax.h</string>
+		</array>
+		<array>
+			<string>wax.m</string>
+		</array>
+		<array>
+			<string>wax_class.h</string>
+		</array>
+		<array>
+			<string>wax_class.m</string>
+		</array>
+		<array>
+			<string>wax_gc.h</string>
+		</array>
+		<array>
+			<string>wax_gc.m</string>
+		</array>
+		<array>
+			<string>wax_helpers.h</string>
+		</array>
+		<array>
+			<string>wax_helpers.m</string>
+		</array>
+		<array>
+			<string>wax_instance.h</string>
+		</array>
+		<array>
+			<string>wax_instance.m</string>
+		</array>
+		<array>
+			<string>wax_server.h</string>
+		</array>
+		<array>
+			<string>wax_server.m</string>
+		</array>
+		<array>
+			<string>wax_stdlib.h</string>
+		</array>
+		<array>
+			<string>wax_struct.h</string>
+		</array>
+		<array>
+			<string>wax_struct.m</string>
+		</array>
+	</array>
+</dict>
+</plist>

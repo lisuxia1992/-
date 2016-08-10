@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>UIButton+MBIBnspectable.h</string>
+		</array>
+		<array>
+			<string>UIButton+MBIBnspectable.m</string>
+		</array>
+		<array>
+			<string>UILabel+MBIBnsepectable.h</string>
+		</array>
+		<array>
+			<string>UILabel+MBIBnsepectable.m</string>
+		</array>
+		<array>
+			<string>UIView+MBIBnspectable.h</string>
+		</array>
+		<array>
+			<string>UIView+MBIBnspectable.m</string>
+		</array>
+	</array>
+</dict>
+</plist>
