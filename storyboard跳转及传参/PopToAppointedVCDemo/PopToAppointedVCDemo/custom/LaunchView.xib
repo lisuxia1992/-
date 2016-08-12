@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdLaunchScreenViewController">
+            <connections>
+                <outlet property="adLaunchImageBgView" destination="CO8-Ct-8Pa" id="NKj-Vv-5E2"/>
+                <outlet property="overleapBtn" destination="LMQ-LA-VLC" id="inf-XB-gR8"/>
+                <outlet property="view" destination="iN0-l3-epB" id="vbT-OF-YFk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="launch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CO8-Ct-8Pa">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                    <color key="backgroundColor" red="0.15157277960000001" green="0.67450980390000004" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-Ds-quM">
+                    <rect key="frame" x="63" y="328" width="600" height="100"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Heo-6u-gv7">
+                            <rect key="frame" x="0.0" y="-100" width="600" height="0.0"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMQ-LA-VLC">
+                            <rect key="frame" x="530" y="40" width="30" height="30"/>
+                            <state key="normal" title="03 跳过"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.15791074369999999" blue="0.22542324380000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Heo-6u-gv7" secondAttribute="trailing" id="BDp-Jt-Y1e"/>
+                        <constraint firstAttribute="trailing" secondItem="LMQ-LA-VLC" secondAttribute="trailing" constant="40" id="O63-ab-3mk"/>
+                        <constraint firstItem="LMQ-LA-VLC" firstAttribute="top" secondItem="bGu-Ds-quM" secondAttribute="top" constant="40" id="Qei-l6-u5V">
+                            <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                        </constraint>
+                        <constraint firstAttribute="bottom" secondItem="Heo-6u-gv7" secondAttribute="bottom" id="e3B-uG-dfc"/>
+                        <constraint firstItem="Heo-6u-gv7" firstAttribute="leading" secondItem="bGu-Ds-quM" secondAttribute="leading" id="htZ-Ea-xCr"/>
+                        <constraint firstItem="Heo-6u-gv7" firstAttribute="top" secondItem="bGu-Ds-quM" secondAttribute="top" id="mfL-vb-0C3"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BDp-Jt-Y1e"/>
+                            <exclude reference="e3B-uG-dfc"/>
+                            <exclude reference="htZ-Ea-xCr"/>
+                            <exclude reference="mfL-vb-0C3"/>
+                            <exclude reference="O63-ab-3mk"/>
+                            <exclude reference="Qei-l6-u5V"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="BDp-Jt-Y1e"/>
+                            <include reference="e3B-uG-dfc"/>
+                            <include reference="htZ-Ea-xCr"/>
+                            <include reference="mfL-vb-0C3"/>
+                            <include reference="O63-ab-3mk"/>
+                            <include reference="Qei-l6-u5V"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CO8-Ct-8Pa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3kf-7K-jII"/>
+                <constraint firstItem="bGu-Ds-quM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7h3-uJ-jOO"/>
+                <constraint firstItem="CO8-Ct-8Pa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GIS-gL-tDD"/>
+                <constraint firstAttribute="trailing" secondItem="CO8-Ct-8Pa" secondAttribute="trailing" id="NLW-Nd-DYa"/>
+                <constraint firstAttribute="bottom" secondItem="bGu-Ds-quM" secondAttribute="bottom" constant="100" id="PE5-rr-LcP"/>
+                <constraint firstAttribute="bottom" secondItem="CO8-Ct-8Pa" secondAttribute="bottom" id="dVA-fC-7l5"/>
+                <constraint firstAttribute="trailing" secondItem="bGu-Ds-quM" secondAttribute="trailing" id="hSN-SZ-KuL"/>
+                <constraint firstItem="bGu-Ds-quM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v6R-Bz-AZt"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="3kf-7K-jII"/>
+                    <exclude reference="GIS-gL-tDD"/>
+                    <exclude reference="NLW-Nd-DYa"/>
+                    <exclude reference="dVA-fC-7l5"/>
+                    <exclude reference="7h3-uJ-jOO"/>
+                    <exclude reference="PE5-rr-LcP"/>
+                    <exclude reference="hSN-SZ-KuL"/>
+                    <exclude reference="v6R-Bz-AZt"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="3kf-7K-jII"/>
+                    <include reference="GIS-gL-tDD"/>
+                    <include reference="NLW-Nd-DYa"/>
+                    <include reference="dVA-fC-7l5"/>
+                    <include reference="7h3-uJ-jOO"/>
+                    <include reference="PE5-rr-LcP"/>
+                    <include reference="hSN-SZ-KuL"/>
+                    <include reference="v6R-Bz-AZt"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch.jpg" width="665" height="1182"/>
+    </resources>
+</document>
