@@ -30,7 +30,9 @@
 		29D42CFA1C197D49007C0809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D42CF91C197D49007C0809 /* Assets.xcassets */; };
 		29D42CFD1C197D49007C0809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D42CFB1C197D49007C0809 /* LaunchScreen.storyboard */; };
 		29D42D081C197D49007C0809 /* PopToAppointedVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D42D071C197D49007C0809 /* PopToAppointedVCDemoUITests.m */; };
+		8492A295074A1749EED93440 /* libPods-PopToAppointedVCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC84C2B58A2FB54C0AB11E6 /* libPods-PopToAppointedVCDemo.a */; };
 		ED12B8E71D5833A6002BBD76 /* UIImage+LayerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ED12B8E61D5833A6002BBD76 /* UIImage+LayerAction.m */; };
+		ED71AE621D6C42D200E75E2A /* libAppSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED71AE611D6C42D200E75E2A /* libAppSupport.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,8 +88,12 @@
 		29D42D031C197D49007C0809 /* PopToAppointedVCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopToAppointedVCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D42D071C197D49007C0809 /* PopToAppointedVCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopToAppointedVCDemoUITests.m; sourceTree = "<group>"; };
 		29D42D091C197D49007C0809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC84C2B58A2FB54C0AB11E6 /* libPods-PopToAppointedVCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopToAppointedVCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01A4EB14CB4B855DE9919E4 /* Pods-PopToAppointedVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopToAppointedVCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED12B8E51D5833A6002BBD76 /* UIImage+LayerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LayerAction.h"; sourceTree = "<group>"; };
 		ED12B8E61D5833A6002BBD76 /* UIImage+LayerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LayerAction.m"; sourceTree = "<group>"; };
+		ED71AE611D6C42D200E75E2A /* libAppSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppSupport.a; path = "AppSupport/build/Debug-iphoneos/libAppSupport.a"; sourceTree = "<group>"; };
+		F8CEC26FC6B23C31963C14C1 /* Pods-PopToAppointedVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopToAppointedVCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED71AE621D6C42D200E75E2A /* libAppSupport.a in Frameworks */,
 				29A1ADBE1C3CE81000A6DE41 /* SystemConfiguration.framework in Frameworks */,
+				8492A295074A1749EED93440 /* libPods-PopToAppointedVCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +188,8 @@
 				29D42CEC1C197D49007C0809 /* PopToAppointedVCDemo */,
 				29D42D061C197D49007C0809 /* PopToAppointedVCDemoUITests */,
 				29D42CEB1C197D49007C0809 /* Products */,
+				DBE7B3C0B748A15243908E9B /* Pods */,
+				9ED5655D4B7B53492ED64388 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +241,24 @@
 			path = PopToAppointedVCDemoUITests;
 			sourceTree = "<group>";
 		};
+		9ED5655D4B7B53492ED64388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED71AE611D6C42D200E75E2A /* libAppSupport.a */,
+				8EC84C2B58A2FB54C0AB11E6 /* libPods-PopToAppointedVCDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE7B3C0B748A15243908E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8CEC26FC6B23C31963C14C1 /* Pods-PopToAppointedVCDemo.debug.xcconfig */,
+				C01A4EB14CB4B855DE9919E4 /* Pods-PopToAppointedVCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D42D0C1C197D49007C0809 /* Build configuration list for PBXNativeTarget "PopToAppointedVCDemo" */;
 			buildPhases = (
+				4C3E106F2EDA034B28721195 /* [CP] Check Pods Manifest.lock */,
 				29D42CE61C197D49007C0809 /* Sources */,
 				29D42CE71C197D49007C0809 /* Frameworks */,
 				29D42CE81C197D49007C0809 /* Resources */,
+				D58D060BCBCC9984A9D03F4D /* [CP] Embed Pods Frameworks */,
+				11D64554AD9F0326325058E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,6 +359,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11D64554AD9F0326325058E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3E106F2EDA034B28721195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D58D060BCBCC9984A9D03F4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29D42CE61C197D49007C0809 /* Sources */ = {
@@ -474,36 +553,74 @@
 		};
 		29D42D0D1C197D49007C0809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CEC26FC6B23C31963C14C1 /* Pods-PopToAppointedVCDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/AppSupport/AppSupport/**",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONModel\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SWTableViewCell\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+				);
 				INFOPLIST_FILE = PopToAppointedVCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppSupport/build/Debug-iphoneos",
+				);
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = number1.PopToAppointedVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 				WARNING_CFLAGS = "-Wunreachable-code";
 			};
 			name = Debug;
 		};
 		29D42D0E1C197D49007C0809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01A4EB14CB4B855DE9919E4 /* Pods-PopToAppointedVCDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/AppSupport/AppSupport/**",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONModel\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SWTableViewCell\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+				);
 				INFOPLIST_FILE = PopToAppointedVCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppSupport/build/Debug-iphoneos",
+				);
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = number1.PopToAppointedVCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				USER_HEADER_SEARCH_PATHS = "";
 				WARNING_CFLAGS = "-Wunreachable-code";
 			};
 			name = Release;

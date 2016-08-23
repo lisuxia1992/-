@@ -36,8 +36,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor cyanColor]];//全局更改导航栏颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];//全局更改导航栏 item颜色
+    
     self.window.backgroundColor = [UIColor greenColor];
-    NSLog(@"%d  -----  %d",1000/DAY_SECOND,1000/(24*60*60*60*1000));
+    NSLog(@"%d  -----  %d",1000/DAY_SECOND,1000/(24*60*60*60*1000));//宏定义一定注意加括号，尤其是多运算符时
     
     //[self performSelector:@selector(initAdView) withObject:nil afterDelay:2];
     //[self initAdView];

@@ -48,22 +48,21 @@ static NSString *kStoreAppId = @"647753529";
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    NSLog(@"123abc");
+    LRToast(123abc);
     [super viewDidAppear:animated];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     //输出结果：ACDB；如果dispatch_after放到dispatch_get_global_queue队列则输出结果为：ACDB或ACBD
-    NSLog(@"A");
+    LRToast(A);
     dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-           NSLog(@"B   ----- ");
+           LRToast(B-----);
        });
         NSLog(@"C");
     });
-    NSLog(@"D");
+    LRToast(D);
     
     
     //NSString *str = 0;//不会报错,打印出来是nil
