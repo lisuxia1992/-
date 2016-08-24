@@ -10,6 +10,14 @@
 		ED71AE651D6C4C8B00E75E2A /* libAppSupport.a in Copy Files */ = {isa = PBXBuildFile; fileRef = ED71AE551D6C427000E75E2A /* libAppSupport.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ED71AE7F1D6C583A00E75E2A /* AppSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = ED71AE7D1D6C583A00E75E2A /* AppSupport.h */; };
 		ED71AE801D6C583A00E75E2A /* AppSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE7E1D6C583A00E75E2A /* AppSupport.m */; };
+		ED71AE841D6C5BCF00E75E2A /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED71AE821D6C5BCF00E75E2A /* BaseModel.h */; };
+		ED71AE851D6C5BCF00E75E2A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE831D6C5BCF00E75E2A /* BaseModel.m */; };
+		ED71AE951D6D430100E75E2A /* StretchyHeaderCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE921D6D41A800E75E2A /* StretchyHeaderCollectionViewLayout.m */; };
+		ED71AE961D6D430100E75E2A /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE941D6D41A800E75E2A /* UncaughtExceptionHandler.m */; };
+		ED71AE971D6D430100E75E2A /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE8F1D6D416F00E75E2A /* CustomNavigationViewController.m */; };
+		ED71AE981D6D430100E75E2A /* NSString+ForbidEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE881D6D408F00E75E2A /* NSString+ForbidEmoji.m */; };
+		ED71AE991D6D430100E75E2A /* UIImage+LayerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE8A1D6D408F00E75E2A /* UIImage+LayerAction.m */; };
+		ED71AE9A1D6D430100E75E2A /* UIViewController+CustomTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71AE8C1D6D408F00E75E2A /* UIViewController+CustomTracker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +39,20 @@
 		ED71AE6C1D6C573E00E75E2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED71AE7D1D6C583A00E75E2A /* AppSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSupport.h; sourceTree = "<group>"; };
 		ED71AE7E1D6C583A00E75E2A /* AppSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSupport.m; sourceTree = "<group>"; };
+		ED71AE821D6C5BCF00E75E2A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		ED71AE831D6C5BCF00E75E2A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		ED71AE871D6D408F00E75E2A /* NSString+ForbidEmoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ForbidEmoji.h"; sourceTree = "<group>"; };
+		ED71AE881D6D408F00E75E2A /* NSString+ForbidEmoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ForbidEmoji.m"; sourceTree = "<group>"; };
+		ED71AE891D6D408F00E75E2A /* UIImage+LayerAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LayerAction.h"; sourceTree = "<group>"; };
+		ED71AE8A1D6D408F00E75E2A /* UIImage+LayerAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LayerAction.m"; sourceTree = "<group>"; };
+		ED71AE8B1D6D408F00E75E2A /* UIViewController+CustomTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomTracker.h"; sourceTree = "<group>"; };
+		ED71AE8C1D6D408F00E75E2A /* UIViewController+CustomTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomTracker.m"; sourceTree = "<group>"; };
+		ED71AE8E1D6D416F00E75E2A /* CustomNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
+		ED71AE8F1D6D416F00E75E2A /* CustomNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
+		ED71AE911D6D41A800E75E2A /* StretchyHeaderCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StretchyHeaderCollectionViewLayout.h; sourceTree = "<group>"; };
+		ED71AE921D6D41A800E75E2A /* StretchyHeaderCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchyHeaderCollectionViewLayout.m; sourceTree = "<group>"; };
+		ED71AE931D6D41A800E75E2A /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		ED71AE941D6D41A800E75E2A /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +86,56 @@
 		ED71AE7C1D6C583A00E75E2A /* AppSupport */ = {
 			isa = PBXGroup;
 			children = (
+				ED71AE901D6D41A800E75E2A /* library */,
+				ED71AE8D1D6D416F00E75E2A /* base */,
+				ED71AE861D6D408F00E75E2A /* category */,
+				ED71AE811D6C5BAB00E75E2A /* coredata */,
 				ED71AE7D1D6C583A00E75E2A /* AppSupport.h */,
 				ED71AE7E1D6C583A00E75E2A /* AppSupport.m */,
 			);
 			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		ED71AE811D6C5BAB00E75E2A /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				ED71AE821D6C5BCF00E75E2A /* BaseModel.h */,
+				ED71AE831D6C5BCF00E75E2A /* BaseModel.m */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		ED71AE861D6D408F00E75E2A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				ED71AE871D6D408F00E75E2A /* NSString+ForbidEmoji.h */,
+				ED71AE881D6D408F00E75E2A /* NSString+ForbidEmoji.m */,
+				ED71AE891D6D408F00E75E2A /* UIImage+LayerAction.h */,
+				ED71AE8A1D6D408F00E75E2A /* UIImage+LayerAction.m */,
+				ED71AE8B1D6D408F00E75E2A /* UIViewController+CustomTracker.h */,
+				ED71AE8C1D6D408F00E75E2A /* UIViewController+CustomTracker.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		ED71AE8D1D6D416F00E75E2A /* base */ = {
+			isa = PBXGroup;
+			children = (
+				ED71AE8E1D6D416F00E75E2A /* CustomNavigationViewController.h */,
+				ED71AE8F1D6D416F00E75E2A /* CustomNavigationViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		ED71AE901D6D41A800E75E2A /* library */ = {
+			isa = PBXGroup;
+			children = (
+				ED71AE911D6D41A800E75E2A /* StretchyHeaderCollectionViewLayout.h */,
+				ED71AE921D6D41A800E75E2A /* StretchyHeaderCollectionViewLayout.m */,
+				ED71AE931D6D41A800E75E2A /* UncaughtExceptionHandler.h */,
+				ED71AE941D6D41A800E75E2A /* UncaughtExceptionHandler.m */,
+			);
+			path = library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED71AE7F1D6C583A00E75E2A /* AppSupport.h in Headers */,
+				ED71AE841D6C5BCF00E75E2A /* BaseModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED71AE951D6D430100E75E2A /* StretchyHeaderCollectionViewLayout.m in Sources */,
+				ED71AE961D6D430100E75E2A /* UncaughtExceptionHandler.m in Sources */,
+				ED71AE971D6D430100E75E2A /* CustomNavigationViewController.m in Sources */,
+				ED71AE981D6D430100E75E2A /* NSString+ForbidEmoji.m in Sources */,
+				ED71AE991D6D430100E75E2A /* UIImage+LayerAction.m in Sources */,
+				ED71AE9A1D6D430100E75E2A /* UIViewController+CustomTracker.m in Sources */,
+				ED71AE851D6C5BCF00E75E2A /* BaseModel.m in Sources */,
 				ED71AE801D6C583A00E75E2A /* AppSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

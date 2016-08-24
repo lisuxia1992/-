@@ -16,11 +16,6 @@
 		29166CDE1C560D2F00252E4A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CD71C560D2F00252E4A /* FourViewController.m */; };
 		29166CDF1C560D2F00252E4A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CD91C560D2F00252E4A /* SecondViewController.m */; };
 		29166CE01C560D2F00252E4A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CDB1C560D2F00252E4A /* ThirdViewController.m */; };
-		29166CE31C560D3B00252E4A /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CE21C560D3B00252E4A /* CustomNavigationViewController.m */; };
-		29166CE81C560D4300252E4A /* NSString+ForbidEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CE51C560D4300252E4A /* NSString+ForbidEmoji.m */; };
-		29166CE91C560D4300252E4A /* UIViewController+CustomTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CE71C560D4300252E4A /* UIViewController+CustomTracker.m */; };
-		29166CEE1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CEB1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.m */; };
-		29166CEF1C560D4E00252E4A /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 29166CED1C560D4E00252E4A /* UncaughtExceptionHandler.m */; };
 		29A1ADB31C3A484700A6DE41 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A1ADB21C3A484700A6DE41 /* launch.jpg */; };
 		29A1ADBE1C3CE81000A6DE41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1ADBD1C3CE81000A6DE41 /* SystemConfiguration.framework */; };
 		29D42CEF1C197D49007C0809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D42CEE1C197D49007C0809 /* main.m */; };
@@ -31,7 +26,6 @@
 		29D42CFD1C197D49007C0809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D42CFB1C197D49007C0809 /* LaunchScreen.storyboard */; };
 		29D42D081C197D49007C0809 /* PopToAppointedVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D42D071C197D49007C0809 /* PopToAppointedVCDemoUITests.m */; };
 		8492A295074A1749EED93440 /* libPods-PopToAppointedVCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC84C2B58A2FB54C0AB11E6 /* libPods-PopToAppointedVCDemo.a */; };
-		ED12B8E71D5833A6002BBD76 /* UIImage+LayerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ED12B8E61D5833A6002BBD76 /* UIImage+LayerAction.m */; };
 		ED71AE621D6C42D200E75E2A /* libAppSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED71AE611D6C42D200E75E2A /* libAppSupport.a */; };
 /* End PBXBuildFile section */
 
@@ -63,16 +57,6 @@
 		29166CD91C560D2F00252E4A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		29166CDA1C560D2F00252E4A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		29166CDB1C560D2F00252E4A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		29166CE11C560D3B00252E4A /* CustomNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
-		29166CE21C560D3B00252E4A /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
-		29166CE41C560D4300252E4A /* NSString+ForbidEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ForbidEmoji.h"; sourceTree = "<group>"; };
-		29166CE51C560D4300252E4A /* NSString+ForbidEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ForbidEmoji.m"; sourceTree = "<group>"; };
-		29166CE61C560D4300252E4A /* UIViewController+CustomTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomTracker.h"; sourceTree = "<group>"; };
-		29166CE71C560D4300252E4A /* UIViewController+CustomTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomTracker.m"; sourceTree = "<group>"; };
-		29166CEA1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchyHeaderCollectionViewLayout.h; sourceTree = "<group>"; };
-		29166CEB1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchyHeaderCollectionViewLayout.m; sourceTree = "<group>"; };
-		29166CEC1C560D4E00252E4A /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
-		29166CED1C560D4E00252E4A /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 		29A1ADB21C3A484700A6DE41 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
 		29A1ADBD1C3CE81000A6DE41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		29D42CEA1C197D49007C0809 /* PopToAppointedVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopToAppointedVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +74,6 @@
 		29D42D091C197D49007C0809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EC84C2B58A2FB54C0AB11E6 /* libPods-PopToAppointedVCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopToAppointedVCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01A4EB14CB4B855DE9919E4 /* Pods-PopToAppointedVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopToAppointedVCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo.release.xcconfig"; sourceTree = "<group>"; };
-		ED12B8E51D5833A6002BBD76 /* UIImage+LayerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LayerAction.h"; sourceTree = "<group>"; };
-		ED12B8E61D5833A6002BBD76 /* UIImage+LayerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LayerAction.m"; sourceTree = "<group>"; };
 		ED71AE611D6C42D200E75E2A /* libAppSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppSupport.a; path = "AppSupport/build/Debug-iphoneos/libAppSupport.a"; sourceTree = "<group>"; };
 		F8CEC26FC6B23C31963C14C1 /* Pods-PopToAppointedVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopToAppointedVCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopToAppointedVCDemo/Pods-PopToAppointedVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,39 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29166CC21C560B6F00252E4A /* base */ = {
-			isa = PBXGroup;
-			children = (
-				29166CE11C560D3B00252E4A /* CustomNavigationViewController.h */,
-				29166CE21C560D3B00252E4A /* CustomNavigationViewController.m */,
-			);
-			path = base;
-			sourceTree = "<group>";
-		};
-		29166CC31C560B6F00252E4A /* category */ = {
-			isa = PBXGroup;
-			children = (
-				29166CE41C560D4300252E4A /* NSString+ForbidEmoji.h */,
-				29166CE51C560D4300252E4A /* NSString+ForbidEmoji.m */,
-				29166CE61C560D4300252E4A /* UIViewController+CustomTracker.h */,
-				29166CE71C560D4300252E4A /* UIViewController+CustomTracker.m */,
-				ED12B8E51D5833A6002BBD76 /* UIImage+LayerAction.h */,
-				ED12B8E61D5833A6002BBD76 /* UIImage+LayerAction.m */,
-			);
-			path = category;
-			sourceTree = "<group>";
-		};
-		29166CC41C560B6F00252E4A /* library */ = {
-			isa = PBXGroup;
-			children = (
-				29166CEA1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.h */,
-				29166CEB1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.m */,
-				29166CEC1C560D4E00252E4A /* UncaughtExceptionHandler.h */,
-				29166CED1C560D4E00252E4A /* UncaughtExceptionHandler.m */,
-			);
-			path = library;
-			sourceTree = "<group>";
-		};
 		29166CC51C560BFB00252E4A /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,9 +156,6 @@
 			children = (
 				29166CC61C560C5B00252E4A /* custom */,
 				29166CC51C560BFB00252E4A /* viewcontroller */,
-				29166CC21C560B6F00252E4A /* base */,
-				29166CC31C560B6F00252E4A /* category */,
-				29166CC41C560B6F00252E4A /* library */,
 				29D42CF01C197D49007C0809 /* AppDelegate.h */,
 				29D42CF11C197D49007C0809 /* AppDelegate.m */,
 				29D42CF31C197D49007C0809 /* ViewController.h */,
@@ -414,11 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29166CDF1C560D2F00252E4A /* SecondViewController.m in Sources */,
-				29166CEF1C560D4E00252E4A /* UncaughtExceptionHandler.m in Sources */,
 				29166CCF1C560D1100252E4A /* CollectionCell.m in Sources */,
 				29166CD01C560D1100252E4A /* LaunchView.m in Sources */,
-				ED12B8E71D5833A6002BBD76 /* UIImage+LayerAction.m in Sources */,
-				29166CEE1C560D4E00252E4A /* StretchyHeaderCollectionViewLayout.m in Sources */,
 				29166CCE1C560D1100252E4A /* AdLaunchScreenViewController.m in Sources */,
 				29166CDE1C560D2F00252E4A /* FourViewController.m in Sources */,
 				29166CE01C560D2F00252E4A /* ThirdViewController.m in Sources */,
@@ -426,10 +369,7 @@
 				29D42CF21C197D49007C0809 /* AppDelegate.m in Sources */,
 				29166CDC1C560D2F00252E4A /* FifthViewController.m in Sources */,
 				29D42CEF1C197D49007C0809 /* main.m in Sources */,
-				29166CE91C560D4300252E4A /* UIViewController+CustomTracker.m in Sources */,
-				29166CE31C560D3B00252E4A /* CustomNavigationViewController.m in Sources */,
 				29166CDD1C560D2F00252E4A /* FirstViewController.m in Sources */,
-				29166CE81C560D4300252E4A /* NSString+ForbidEmoji.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

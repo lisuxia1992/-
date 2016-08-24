@@ -21,6 +21,11 @@
 #import "AdLaunchScreenViewController.h"
 #import "LaunchView.h"
 
+
+#import "BaseModel.h"
+
+
+
 static NSString *kStoreAppId = @"647753529";
 
 @interface ViewController ()<UITextFieldDelegate,UITextViewDelegate>
@@ -48,12 +53,19 @@ static NSString *kStoreAppId = @"647753529";
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    LRToast(123abc);
+    NSLog(@"123abc");
     [super viewDidAppear:animated];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    BaseModel *model = [[BaseModel alloc] init];
+    model.name = @"name";
+    model.age = 20;
+    model.sex = @"女";
+    NSLog(@"%@",model);
+    
     //输出结果：ACDB；如果dispatch_after放到dispatch_get_global_queue队列则输出结果为：ACDB或ACBD
     LRToast(A);
     dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
